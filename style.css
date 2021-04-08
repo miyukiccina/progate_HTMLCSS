@@ -24,42 +24,37 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  padding: 100px 80px;
 }
 
-.footer {
-  /* background-colorを#2f5167に変更してください */
-  background-color: #ceccf3;
-
-  /* colorを#fffにしてください */
-  color: #fff;
-
-  /* heightを120pxに変更してください */
-  height: 270px;
-  /* 上下左右のpaddingを40pxにしてください */
-  padding: 40px;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-/* footer-logoのfont-sizeとfloatを指定してください */
-.footer-logo {
-  font-size: 32px;
-  float: left;
+.copy-container h2 {
+  font-size: 60px;
 }
 
-/* footer-listのfloatを指定してください */
-.footer-list {
-  float: right;
-}
-
-/* footer-listの中のli要素のpadding-bottomを指定してください */
-.footer-list li {
-  padding-bottom: 20px;
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .footer {
   background-color: #2f5167;
   color: #fff;
   height: 120px;
-  padding: 40px 40px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
